@@ -14,3 +14,26 @@
     position: relative;
     background-color: rgb(237, 168, 100);
 }
+
+div{
+    background-color: darkblue;
+    width: 100px;
+    height: 100px;
+}
+
+.margin{
+    margin: 50px;
+}
+
+.padding{
+    padding: 50px;
+}
+
+.classic{
+    border-style: double;
+    border-color: greenyellow;
+    border-radius: 50px;
+    border: 50px;
+    border-bottom: 100px solid red;
+    border-right: 10px solid pink;
+}
