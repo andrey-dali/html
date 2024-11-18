@@ -1,0 +1,139 @@
+.circle{
+    position: absolute;
+    border-style: solid;
+    border-radius: 50px;
+    border-color: silver;
+    border-width: 1px;
+    padding: .2em .55em;
+}
+
+.flexer{
+    display: flex;
+}
+
+.title{
+    font-weight: 1000;
+}
+
+.card{
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.krug{
+    background-color: greenyellow;
+    position: absolute;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+}
+
+.image{
+    width: 17.5px;
+    border: 0.5px solid #a9a9a9;
+    padding: 4.5px;
+}
+
+
+
+
+
+/* bars */
+
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.bar{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    border-bottom: 2px solid #57505D;
+}
+
+.chapter{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+/* offsets */
+
+.offset_1{
+    margin-left: 1px;
+}
+
+.offset_5{
+    margin-left: 5px;
+}
+
+.offset_10{
+    margin-left: 10px;
+}
+
+/* text */
+
+.lesson_title{
+    display: inline-block;
+    color: #57505D;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: small;
+}
+
+.activity_title{
+    display: inline-block;
+    color: #57505D;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+.chapter_title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large; 
+    vertical-align: middle;
+    color: #57505D;
+}
+/* arrows */
+
+.arrow{
+    border: solid #57505D;
+    border-width: 0 1.5px 1.5px 0;
+    padding: 2px;
+    margin-bottom: 2px;
+    display: inline-block;
+}
+
+.right{
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+  
+.down{
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+/* other */
+
+.circle_2{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 0.5px solid #89989C;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-align: center;
+    line-height: 20px;
+    color: #89989C;
+}
+
+.circle_3{
+    position: absolute;
+    border: 0.5px solid #89989C;
+    border-radius: 50%;
+    padding: .2em .55em;
+    background-color: aquamarine;
+}
