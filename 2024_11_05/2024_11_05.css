@@ -1,0 +1,34 @@
+.circle{
+    position: absolute;
+    border-style: solid;
+    border-radius: 50px;
+    border-color: silver;
+    border-width: 1px;
+    padding: .2em .55em;
+}
+
+.flexer{
+    display: flex;
+}
+
+.title{
+    font-weight: 1000;
+}
+
+.card{
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.krug{
+    background-color: greenyellow;
+    position: absolute;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+}
+
+.image{
+    width: 17.5px;
+    border: 0.5px solid #a9a9a9;
+    padding: 4.5px;
+}
