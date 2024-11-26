@@ -150,18 +150,3 @@ html, body{
 
     background-color: blueviolet;
 }
-
-.circle_5{
-    max-height: 20px;
-    max-width: 20px;
-    min-height: 20px;
-    min-width: 20px;
-
-    border-radius: 50%;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    background-color: blueviolet;
-}
